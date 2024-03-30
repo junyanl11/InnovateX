@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InnovateX</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">InnovateX</a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">InnovateX</a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Acceuil</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>A Propos</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li>
+            <a href="#contacts" class="navbar-link" data-nav-link>Contacts</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="#" class="btn-outline">Get Started</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle has-before">Bienvenue dans notre agence</p>
+
+            <h1 class="h1 hero-title">Solutions numériques sur mesure, innovation sans limites</h1>
+
+            <p class="hero-text">
+              Optimisez votre productivité avec notre expertise en automatisation AIAA. Des processus répétitifs aux tâches complexes, nous développons des solutions sur mesure pour libérer votre équipe des tâches fastidieuses. Libérez du temps précieux
+               et concentrez-vous sur l'essentiel de votre entreprise tout en bénéficiant d'une efficacité accrue.
+            </p>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Découvrir plus</a>
+
+              <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="play" aria-hidden="true"></ion-icon>
+                </div>
+
+              </button>
+            </div>
+
+          </div>
+
+          <figure class="hero-banner has-before img-holder" style="--width: 650; --height: 650;">
+            <img src="./assets/images/hero-banner.png" width="650" height="650" alt="hero banner" class="img-cover">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="802" height="654" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2-sm section-title">Nous créons certaines choses, concevons pour votre avenir de réussite.</h2>
+
+            <p class="section-text">
+              Entrez dans l'ère numérique avec notre service de digitalisation d'entreprise. De la gestion des données à la transformation numérique complète,
+               nous vous accompagnons à chaque étape pour moderniser vos opérations.
+               Gagnez en agilité, en compétitivité et en innovation grâce à nos solutions personnalisées qui répondent aux besoins spécifiques de votre entreprise.
+            </p>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Savoir plus</a>
+
+              <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="medal-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">10+ Years Experience</span>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle text-center">-Ce que nous offrons-</p>
+
+          <h2 class="h2 section-title text-center">Nos services</h2>
+
+          <p class="section-text text-center">
+            
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-1.png" width="140" height="140" loading="lazy"
+                    alt="UI/UX Creative Design" class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Création de site web</h3>
+
+                  <p class="card-text">
+                    Faites briller votre présence en ligne avec nos services de création de sites web sur mesure.
+                     Du design à la fonctionnalité, nous concevons des sites web esthétiques et fonctionnels qui captivent votre audience et renforcent votre marque,
+                     vous aidant à atteindre vos objectifs commerciaux en ligne.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Lire plus</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-2.png" width="140" height="140" loading="lazy" alt="App Development"
+                    class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Automatisation AIAA</h3>
+
+                  <p class="card-text">
+                    Simplifiez vos processus métier avec notre expertise en automatisation AIAA. 
+                    Des tâches répétitives aux décisions complexes, nous utilisons l'intelligence artificielle et l'apprentissage automatique pour rationaliser vos opérations,
+                     réduire les erreurs et libérer le potentiel de votre entreprise.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Lire plus</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-3.png" width="140" height="140" loading="lazy"
+                    alt="Professional Content Writer" class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Digitalisation d'entreprise</h3>
+
+                  <p class="card-text">
+                    Transformez votre entreprise pour l'avenir numérique avec notre service de digitalisation.
+                     De la migration vers le cloud à la mise en place de solutions IoT, nous vous aidons à exploiter pleinement le potentiel des technologies numériques pour améliorer l'efficacité opérationnelle,
+                     la prise de décision et l'expérience client.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Lire plus</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-4.png" width="140" height="140" loading="lazy" alt="Graphic Design"
+                    class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Création de logo et de publicités </h3>
+
+                  <p class="card-text">                   
+                    Donnez une identité visuelle percutante à votre entreprise grâce à nos services de création de logos,
+                     de publicités et d'autres éléments graphiques. Du branding à la publicité, nous concevons des visuels mémorables et 
+                    permettons de renforcer votre positionnement sur le marché et d'attirer l'attention de votre public cible.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Lire plus</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">Get Started</a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features" id="features" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle text-center">-Pourquoi nous choisir-</p>
+
+          <h2 class="h2 section-title text-center">Raisons de nous choisir</h2>
+
+          <p class="section-text text-center">
+            Nous offrons aussi des services de creation d'applications et bien d'autre services
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="01">01</data>
+
+                <h3 class="h3 card-title">Expertise Technique Avancée</h3>
+
+                <p class="card-text">
+                  Notre équipe possède une expertise technique avancée dans le domaine de l'informatique. 
+                  De l'IA à la conception web, nous maîtrisons les dernières technologies pour fournir des solutions innovantes 
+                  et performantes qui répondent à vos besoins spécifiques.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="02">02</data>
+
+                <h3 class="h3 card-title">Approche Personnalisée</h3>
+
+                <p class="card-text">
+                  Nous croyons en une approche personnalisée pour chaque client.
+                   Nous prenons le temps de comprendre vos défis uniques et vos objectifs commerciaux pour proposer des solutions sur mesure qui correspondent parfaitement à votre entreprise.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="03">03</data>
+
+                <h3 class="h3 card-title">Qualité et Professionnalisme</h3>
+
+                <p class="card-text">
+                  La qualité et le professionnalisme sont au cœur de tout ce que nous faisons. 
+                  De la conception à la mise en œuvre, nous nous engageons à fournir un travail de qualité exceptionnelle,
+                   dans les délais impartis et avec un souci du détail inégalé.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="04">04</data>
+
+                <h3 class="h3 card-title">Innovation Continue </h3>
+
+                <p class="card-text">
+                  Nous sommes constamment à l'affût des dernières tendances et technologies pour vous offrir des solutions innovantes et à la pointe du progrès. 
+                  Notre engagement envers l'innovation continue garantit que votre entreprise reste compétitive dans un environnement en constante évolution
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="05">05</data>
+
+                <h3 class="h3 card-title">Service Client Exceptionnel</h3>
+
+                <p class="card-text">
+                  Votre satisfaction est notre priorité absolue. Notre équipe dévouée est toujours disponible pour répondre à vos questions,
+                   résoudre vos problèmes et vous offrir un accompagnement de qualité tout au long de votre parcours avec nous.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="06">06</data>
+
+                <h3 class="h3 card-title">Résultats Mesurables</h3>
+
+                <p class="card-text">
+                  Nous nous engageons à fournir des résultats mesurables et tangibles. 
+                  Que ce soit une augmentation de la productivité, une de l'expérience client ou une croissance des revenus,
+                   nous travaillons avec vous pour définir des objectifs clairs et atteindre des résultats concrets.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FAQ
+      -->
+
+      <section class="section faq" aria-label="frequently asked questions">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Découvrez les questions fréquemment posées ?</h2>
+
+            <a href="#" class="btn btn-primary">Travailler ensemble</a>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    01.Comment votre solution d'automatisation AIAA peut-elle spécifiquement optimiser nos processus métier et apporter une valeur ajoutée à notre entreprise ?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Notre solution d'automatisation AIAA est conçue pour analyser en profondeur vos processus métier existants, identifier les inefficacités et les goulots d'étranglement, puis les automatiser de manière intelligente. Cela permet d'optimiser l'utilisation des ressources, d'accélérer les délais de traitement et de réduire les erreurs humaines. En conséquence, votre entreprise bénéficiera d'une amélioration de l'efficacité opérationnelle, d'une réduction des coûts et d'une meilleure capacité à répondre aux demandes des clients avec agilité, apportant ainsi une valeur ajoutée significative.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    02.Pouvez-vous me montrer des exemples de sites web que vous avez précédemment conçus ? Comment allez-vous garantir que notre site soit à la fois attrayant et fonctionnel ?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Nous avons une vaste expérience dans la conception de sites web pour une variété de clients, allant des petites entreprises aux grandes entreprises. Nos exemples de sites web précédemment conçus illustrent notre engagement envers des designs modernes, une navigation intuitive et des fonctionnalités avancées. Nous garantissons que votre site sera à la fois attrayant et fonctionnel en adoptant une approche centrée sur l'utilisateur, en utilisant les dernières technologies et en effectuant des tests rigoureux pour assurer une expérience utilisateur optimale.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    03.Quels sont les principaux avantages de la digitalisation pour notre entreprise ? Comment allez-vous assurer une transition en douceur vers des processus numériques tout en minimisant les interruptions opérationnelles ?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    La digitalisation offre plusieurs avantages à votre entreprise, notamment une meilleure efficacité opérationnelle, une réduction des coûts, une prise de décision plus rapide et une amélioration de l'expérience client. Notre équipe travaillera en étroite collaboration avec vous pour comprendre vos processus métier, identifier les opportunités de digitalisation et élaborer un plan de transition personnalisé. Nous nous engageons à minimiser les interruptions opérationnelles en proposant une mise en œuvre progressive, une formation adéquate pour votre personnel et un support continu tout au long du processus.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    04."Comment allez-vous capturer l'essence de notre marque dans la conception du logo et des publicités ? Pouvez-vous partager des exemples de travaux précédents qui ont réussi à transmettre efficacement le message d'une entreprise ?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Dans la conception du logo et des publicités, notre objectif est de capturer l'essence de votre marque et de transmettre efficacement votre message unique. Nous commençons par une étude approfondie de votre entreprise, de votre culture et de vos valeurs pour comprendre ce qui vous distingue de vos concurrents. Ensuite, en utilisant notre expertise en design et en marketing, nous créons des visuels percutants qui reflètent fidèlement votre identité de marque. Nous serions ravis de vous montrer des exemples de nos travaux précédents qui ont contribué à renforcer la présence et la reconnaissance de la marque de nos clients sur le marché.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    05.Comment allez-vous vous assurer que notre site web sera optimisé pour les moteurs de recherche (SEO) afin d'atteindre un public plus large ?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Nous serions ravis de vous présenter des exemples de sites web que nous avons précédemment conçus, démontrant notre expertise dans divers secteurs. Pour garantir que votre site soit à la fois attrayant et fonctionnel, nous adoptons une approche collaborative, combinant des designs esthétiques avec une convivialité optimale. Notre équipe expérimentée assure une compatibilité multi-appareils et des performances optimales grâce à des tests rigoureux, garantissant ainsi une expérience utilisateur exceptionnelle pour vos visiteurs.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="Contacts">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">InnovateX</a>
+
+        
+
+Envoyer nous un message sur notre mail <a href="mailto:anlioubusiness@gmail.com" class="footer-link"><h2>anlioubusiness@gmail.com</h2></a>
+          
+        </div>
+
+        
+
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contactez-nous</p>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+            <address class="contact-link address">
+              Abidjan Cote d'Ivoire
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+            <a href="tel:+7894631546876" class="contact-link">+225 0787606430</a>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+            <a href="mailto:anlioubusiness@gmail.com" class="contact-link">anlioubusiness@gmail.com</a>
+          </li>
+
+          <li class="footer-item">
+            <ul class="social-list">
+
+              <li>
+                <a href="https://wa.me/+2250787606430" class="social-link">
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/+2250787606430" class="social-link">
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/+2250787606430" class="social-link">
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/+2250787606430" class="social-link">
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+              </li>
+
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 InnovateX | All Rights Reserved by <a href="#" class="copyright-link">InnovateX</a>
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">politique de confidentialité</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Conditions d'utilisation</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
